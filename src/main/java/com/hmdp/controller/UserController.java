@@ -36,7 +36,7 @@ public class UserController {
     private IUserInfoService userInfoService;
 
     /**
-     * 发送手机验证码
+     * 发送手机验证码123
      */
     @PostMapping("code")
     public Result sendCode(@RequestParam("phone") String phone, HttpSession session) {
